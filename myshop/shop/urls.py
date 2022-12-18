@@ -9,5 +9,4 @@ urlpatterns = [
          name='product-list-by-category'),
     path('<int:id>/<slug:slug>/', views.product_detail,
          name='product-detail'),
-
 ]
